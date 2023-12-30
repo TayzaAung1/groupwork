@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    }
+h1.h1{
+    text-align: center;
+}
+.Parent_logo{
+    /* Parent */
+       display:flex;
+       justify-content: center;
+       text-align: center;
+       padding: 3%;
+    }
+    .col-3{
+        width: 30%;
+        border: 1px solid black;
+        background-color: transparent;
+        height: 46vw;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+.parent{
+    clear: both;
+}    
+p.p{
+    padding: 50px;
+}
+#img_logo{
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-color: rgba(187, 91, 91, 0.314);
+}
+#mynav ul li a {
+    color: rgb(246, 255, 0);
+    width: 100%;
+    text-decoration: none;
+    float: left;
+    padding:20px 45px;
+    display:block;
+    width: 19.69vw;
+    height: 7vh;
+    padding-left: 28vw;
+    justify-content: center;
+    }
+    #mynav li a:hover{
+        color: rgb(224, 98, 98);
+        }
+    
+        /*footer*/
+        nav#mynav ul li,.social_ul{
+            list-style:none;
+            }
+        .footer{
+            background-color: aliceblue;
+            height: 50vh;
+            width: 100%;
+        }     
+   .social_media{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: 'Fontawesome';
+   }
+   
+#pic{
+    width:260px;
+    height:180px;
+}
+
+.parent{
+    /* Parent */
+       display:flex;
+       justify-content: left;
+       padding:3px ;
+}
+
+.child2{
+       clear: both;
+}
+
+/*footer*/
+.main_footer{
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+}    
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.footer,.footer_social{
+text-decoration: none;
+list-style: none;
+color: black;
+font-family: 'Fontawesome';
+}
+
+.footer_social{
+font-size: 30px;
+float: left;
+padding: 15px;
+}
+
+p.p{
+font-size: larger;
+}
+
+.footer_ul{
+list-style: none;
+}
+
+/*footer_width*/
+.col_1,.col_1_1,.col_2,.col_1_1{
+width: 50%;
+}
+
+#foe{
+    width: 100%;
+    height: 86vh;
+}
+
+#foee{
+    width: 100%;
+    height: 86vh;
+}
+
+#LO{
+    font-size: 200%;
+    text-decoration: none;
+    list-style:none;
+}
+
+li a {
+    text-decoration: none;
+}
+h1 #h1{
+    font-size: large;
+    color: red;
+}
+#loo{
+    width: 75%;
+    height: 50%;
+}
+
+.pic-div{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    height: 50%;
+}
+.h1{
+    animation-name: h1-ani;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes h1-ani{
+    0%{
+        color: rgb(255, 0, 64);
+    }
+    25%{
+        color: rgb(212, 0, 255);
+    }
+    75%{
+        color: rgb(135, 210, 30);
+    }
+    100%{
+        color: rgb(0, 73, 128);
+    }
+}
+
+@media all and (min-width:600px){
+    .parent{
+            float: none;
+            width: 100%;
+            color: plum;
+
+            }
+
+        
+        }
+
+@media all and (max-width:768px){
+        
+            .col-3{
+                width:100%;
+                border-color: black;
+            }
+        }

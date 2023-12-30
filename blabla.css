@@ -1,0 +1,24 @@
+/*footer*/
+*{
+    box-sizing: border-box;
+    font-size: large;
+}
+.footer_ul,.footer{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Fontawesome';
+    clear: both;
+    float: left;
+}
+.main_footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-1,.footer-2,.footer-3{
+    width: 30%;
+    margin: auto;
+}
+.footer-4{
+    text-align: center;
+}
